@@ -1,28 +1,40 @@
-p{
-color: rgb(157, 226, 28);
+body{
+width: 100%;
+background-image: url(https://images.pexels.com/photos/376533/pexels-photo-376533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+background-size: cover;
+position: fixed;
+background-repeat: no-repeat;
+color:white;
 }
-div{
-    margin: 10px;
-    border: 1px solid #222;
-}
-#header{
-    height: 80px;
-    background-color: #ccc;
-}
-#content{
-    height: 180px;
-    background-color: #eee;
-}
-#footer{
-    height: 80px;
-    background-color: #ccc;
-}
-#content li
+.Head
 {
-color: rgb(204, 25, 64);
+width: 100%;
+}
+.Head p {
+    padding-top: 8%;
+    text-align: center;
+    font-family: NewYorkTimes;
+    font-size: 30px;
+    
+}
+#author
+{
+background-color: rgb(160, 68, 152,0.6);
+height: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-left: 340px;
+margin-right: 340px;
+}
+::placeholder
+{
 text-align: center;
 }
-div :empty
+#author *
 {
-    background-color: crimson;
+    text-align: center;
+}
+form + p
+{
+    size: 50px;
 }
