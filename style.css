@@ -22,3 +22,7 @@ div{
 color: rgb(204, 25, 64);
 text-align: center;
 }
+div :empty
+{
+    background-color: crimson;
+}
