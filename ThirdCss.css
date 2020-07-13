@@ -4,7 +4,8 @@ div
     background-color: cornflowerblue;
     border: 2px solid powderblue;
     font-size: 30px;
-    height: 80px;
+    min-height: 80px;
+    max-width: auto;
     margin: 10px;
 }
 .head
@@ -31,7 +32,7 @@ div
 background-color: rgb(107, 148, 223);
 margin-right:170px;
 margin-left: 170px;
-height: 200px;
+padding-bottom: 56px;
 }
 .main-menu
 {
@@ -43,10 +44,9 @@ height: 200px;
 {
     background-color: rgb(84, 93, 219);
     margin-left:260px;
-    max-width: 100%;
 }
 .footer
 {
-    margin-top: px;
+    margin-top: 100px;
     background-color: rgb(133, 77, 120);  
 }  
