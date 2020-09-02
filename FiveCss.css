@@ -1,61 +1,36 @@
 body
 {
     margin: 0px;
+    height: 100vh;
 }
-.head
+.Head
 {
-    height: 100px;
-    background-color: rgb(240, 235, 240);
-    padding: 40px;
-    padding-bottom:0px;
-    border-bottom:2px solid black ;
+background-color:#f4f4f4;
+height: 10%;
+border-bottom: 1px solid gainsboro;
 }
-.head p
+.Footer
 {
-    margin:0px;
-    padding: 0px;
-    size: 100px;
-    font-family: Arial;
-    font-size: 40px;
-    font-weight: bold;
+background-color:#f4f4f4;
+height: 10%;
+border-bottom: 1px solid gainsboro; 
 }
-.navigation
+.Main
 {
-    background-color: rgb(52, 52, 202);
-    height: auto;
+background-color: #fafafa;
+height: 80%;
+margin-right: 20%;
+margin-left:20%;
 }
-.navigation li
+.Sidebar-Left
 {
-    list-style: none;
-    float: left;
+background-color: #f7f7f7;
+float:left;
+margin-right: 80%;
 }
-.navigation li a 
+.Sidebar-Right
 {
-text-decoration: none;
-color:black;
-display: block;
-padding: 20px;
-border-left: 1px solid black;
-}
-a :hover 
-{
-background-color: blue;
-}
-.navigation ul
-{
-    border-bottom: 1px solid black;;
-    padding: 0px;
-    margin: 0px;
-    
-}
-.sidebar-left
-{
-    background-color:red;
-    float: left;
-    min-height: 200px;
-}
-.sidebar-right
-{
-    float: left;
-    min-height: 200px;
+background-color: #f7f7f7;
+float:left;
+margin-right: 80%;
 }
