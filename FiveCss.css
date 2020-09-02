@@ -48,3 +48,14 @@ background-color: blue;
     margin: 0px;
     
 }
+.sidebar-left
+{
+    background-color:red;
+    float: left;
+    min-height: 200px;
+}
+.sidebar-right
+{
+    float: left;
+    min-height: 200px;
+}
