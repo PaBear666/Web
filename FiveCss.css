@@ -18,9 +18,11 @@ border-bottom: 1px solid gainsboro;
 .Main
 {
 background-color: #fafafa;
-height: 80%;
+height: 100%;
 margin-right: 20%;
 margin-left:20%;
+border-left: 1px solid gray;
+border-right: 1px solid gray;
 }
 .Sidebar-Left
 {
@@ -31,6 +33,19 @@ margin-right: 80%;
 .Sidebar-Right
 {
 background-color: #f7f7f7;
-float:left;
-margin-right: 80%;
+float:right;
+margin-left: 80%;
+}
+.Background-Sidebar
+{
+    background-color: #f7f7f7;
+    height: 80%;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+p.Title
+{
+    height: 70%;
+    margin: 0px;
+     
 }
