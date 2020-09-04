@@ -6,7 +6,7 @@ body
 .Head
 {
 background-color:#f4f4f4;
-height: 10%;
+height: 20%;
 border-bottom: 1px solid gainsboro;
 }
 .Footer
@@ -39,7 +39,7 @@ margin-left: 80%;
 .Background-Sidebar
 {
     background-color: #f7f7f7;
-    height: 80%;
+    height: 70%;
     border-bottom: 1px solid gray;
     border-top: 1px solid gray;
 }
@@ -65,5 +65,27 @@ li a
 {
     display: block;
     padding: 0 40px;
+    text-decoration: none;
     
+}
+
+h1,h2
+{
+margin:0;
+}
+.Footer p
+{
+    margin:0;
+    margin-bottom: 3px;
+    text-align: center;
+}
+.Footer
+{
+    padding-top:20px;
+}
+.Head p
+{
+    padding-top: 50px;
+    font-size:300%;
+    font-weight: bold;
 }
