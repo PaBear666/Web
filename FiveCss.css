@@ -3,12 +3,7 @@ body
     margin: 0px;
     height: 100vh;
 }
-.Head
-{
-background-color:#f4f4f4;
-height: 20%;
-border-bottom: 1px solid gainsboro;
-}
+
 .Footer
 {
 background-color:#f4f4f4;
@@ -43,16 +38,25 @@ margin-left: 80%;
     border-bottom: 1px solid gray;
     border-top: 1px solid gray;
 }
+.Head
+{
+background-color:#f4f4f4;
+height: 20%;
+border-bottom: 1px solid gainsboro;
+}
 p.Title
 {
-    height: 50%;
-    margin: 0px;
-    border-bottom: 1px solid gray ;
-     
+    
 }
-.Navigation
+.nav
 {
     height: 40%;
+}
+.Head p
+{
+    padding-top: 50px;
+    font-size:300%;
+    font-weight: bold;
 }
 .Navigation ul li
 {
@@ -66,9 +70,7 @@ li a
     display: block;
     padding: 0 40px;
     text-decoration: none;
-    
 }
-
 h1,h2
 {
 margin:0;
@@ -82,10 +84,4 @@ margin:0;
 .Footer
 {
     padding-top:20px;
-}
-.Head p
-{
-    padding-top: 50px;
-    font-size:300%;
-    font-weight: bold;
 }
