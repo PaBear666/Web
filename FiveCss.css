@@ -9,9 +9,14 @@ margin:0;
 #head p
 {
     padding:30px 30px 30px 20px;
-    font-size: 50px;
+    font-size: 24px;
+    clear:both;
 }
-#head .nav ul
+.nav
+{
+background-color: gray;
+}
+.nav ul
 {
     list-style: none;
 }
@@ -19,4 +24,14 @@ margin:0;
 {
     float:left;
     margin-right:30px;
+}
+.nav ul li a
+{
+   display: block;
+   padding: 20px;
+   
+}
+#background-sidebar
+{
+    clear:both;
 }
