@@ -14,21 +14,22 @@ margin:0;
 }
 .nav
 {
-background-color: gray;
-}
-.nav ul
-{
-    list-style: none;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
 }
 .nav ul li
 {
+    list-style: none;
     float:left;
-    margin-right:30px;
+    
 }
-.nav ul li a
+li a
 {
    display: block;
-   padding: 20px;
+   padding: 10px 20px;
+   color: black;
+   text-decoration-style: none;
+   background-color: hotpink;
    
 }
 #background-sidebar
