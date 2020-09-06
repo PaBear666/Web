@@ -2,8 +2,15 @@ ul,body,p,h1,h2,h3
 {
     margin:0;
 }
+body
+{
+    position: absolute;
+    height: 100%;
+    
+}
 #header
 {
+    height: 25%;
     background-color:#f4f4f4
 }
 #header h1
@@ -15,6 +22,7 @@ ul,body,p,h1,h2,h3
 }
 #nav
 {
+    background-color:#eeeeee;
     border-top:1px solid gray;
     border-bottom:1px solid gray;
 }
@@ -48,7 +56,7 @@ float:left;
 .wrapper
 {
     background-color:#f7f7f7;
-    
+    height:50%;
 }
 .aside
 {
@@ -71,4 +79,10 @@ float:left;
     width: 60%;
     margin-right: 20%;
     margin-left: 20%;
+}
+#footer
+{
+    height: 25%;
+    border-top:1px solid gray;
+    background-color:#eeeeee;
 }
