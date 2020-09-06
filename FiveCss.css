@@ -21,7 +21,6 @@ margin:0;
 {
     list-style: none;
     float:left;
-    
 }
 li a
 {
@@ -30,7 +29,7 @@ li a
    color: black;
    text-decoration-style: none;
    background-color: hotpink;
-   
+   border-right: 1px soild gray ;
 }
 #background-sidebar
 {
