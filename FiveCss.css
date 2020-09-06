@@ -1,5 +1,29 @@
-body,p
+#header
 {
-margin:0;
+    background-color:#f4f4f4
+}
+#header h1
+{
+    font-size: 24px;
+    font-weight: bold;
+    margin:0 50px;
+}
+#nav
+{
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+}
+#nav li
+{
+list-style: none;
+float:left;
+}
+#nav li a
+{
+    display:block;
+    padding: 20px 15px;
+    text-decoration:none;
+    color:black;
+    border-right: 1px solid black;
 }
 
