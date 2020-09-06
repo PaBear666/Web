@@ -1,3 +1,7 @@
+ul,body,p,h1,h2,h3
+{
+    margin:0;
+}
 #header
 {
     background-color:#f4f4f4
@@ -6,7 +10,8 @@
 {
     font-size: 24px;
     font-weight: bold;
-    margin:0 50px;
+    margin:0 30px;
+    padding: 30px 30px 30px 15px;
 }
 #nav
 {
@@ -21,9 +26,49 @@ float:left;
 #nav li a
 {
     display:block;
-    padding: 20px 15px;
+    padding: 15px 10px;
     text-decoration:none;
     color:black;
     border-right: 1px solid black;
 }
 
+#nav li:last-child a {
+    border-right: none; 
+}
+#nav a:hover {
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}
+#nav:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+.wrapper
+{
+    background-color:#f7f7f7;
+    
+}
+.aside
+{
+    width: 20%;
+}
+#sidebar1
+{
+    float: left;
+    
+}
+#sidebar2
+{
+    float:right;
+}
+#article
+{
+    border-left:1px solid gray;
+    border-right:1px solid gray;
+    background-color:#fafafa;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
