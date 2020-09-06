@@ -2,34 +2,31 @@ body,p
 {
 margin:0;
 }
-#head
-{
-    background-color:gray;
+#header{ 
+    background-color: #f4f4f4;
 }
-#head p
-{
-    padding:30px 30px 30px 20px;
+#header h1 {
     font-size: 24px;
-    clear:both;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 30px 30px 30px 10px;
+    clear: both;
 }
-.nav
-{
-    border-top:1px solid black;
-    border-bottom:1px solid black;
+#nav {
+    background-color: #eee;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
-.nav ul li
-{
-    list-style: none;
-    float:left;
+#nav li {
+    float: left;
+    list-style: none;   
 }
-li a
-{
-   display: block;
-   padding: 10px 20px;
-   color: black;
-   text-decoration-style: none;
-   background-color: hotpink;
-   border-right: 1px soild gray ;
+#nav a {
+    display: block;
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-right: 1px solid #ccc;
 }
 #background-sidebar
 {
