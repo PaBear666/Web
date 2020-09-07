@@ -2,12 +2,16 @@ ul,body,p,h1,h2,h3
 {
     margin:0;
 }
+.wrapper h2,p
+{
+    padding:20px 20px 0px 20px;
+    margin-bottom:20px;
+}
 body
 {
     position: absolute;
     height: 100%;
     width: 100%;
-    
 }
 #header
 {
@@ -56,7 +60,7 @@ float:left;
 .wrapper
 {
     background-color:#f7f7f7;
-   
+    padding-bottom:100px;
 }
 .aside
 {
@@ -84,4 +88,6 @@ float:left;
 {
     border-top:1px solid gray;
     background-color:#eeeeee;
+    text-align: center;
+    padding-top:30px;
 }
