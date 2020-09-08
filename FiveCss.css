@@ -79,14 +79,14 @@ float:left;
 #sidebar1
 {
     float: left;
-    border-right: 1px solid black;
+    
     
 }
 #sidebar2
 {
     float:right;
     padding-left:20px;
-    border-left:1px solid black;
+    
 }
 #article
 {
@@ -96,6 +96,11 @@ float:left;
     width: 60%;
     margin-right: 20%;
     margin-left: 20%;
+}
+#article:after{
+    clear:both;
+    display:table;
+    content:'';
 }
 #footer
 {
