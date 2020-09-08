@@ -1,9 +1,25 @@
-div .article   
+body,ul
 {
-color: burlywood;
+    margin:0;
 }
-
-div.article
+li
 {
-    color: red;
+    list-style: none;
+    float: left;
+}
+li a
+{
+    display: block;
+    padding: 20px 10px;
+    text-decoration: none;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    
+}
+.nav
+{
+    margin:0 auto;
+    width: max-content;
+    background-color: black;
+    
 }
