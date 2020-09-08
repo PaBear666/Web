@@ -37,9 +37,12 @@ body
     border-top:1px solid gray;
     border-bottom:1px solid gray;
 }
+li
+{
+    list-style: none;
+}
 #nav li
 {
-list-style: none;
 float:left;
 }
 #nav li a
@@ -111,4 +114,8 @@ float:left;
 }
 .wrapper, #nav, #header, #footer{
     min-width: 768px;
+}
+ul
+{
+    padding-left:20px;
 }
