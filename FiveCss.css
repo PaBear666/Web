@@ -95,9 +95,16 @@ float:left;
     border-top:1px solid gray;
     background-color:#eeeeee;
     text-align: center;
-    padding-top:30px;
+    padding:30px;
 }
 .aside h3
 {
     padding-left:20px;
+}
+#nav ul, #header h1, .wrapper, #footer p {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+.wrapper, #nav, #header, #footer{
+    min-width: 768px;
 }
