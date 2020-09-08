@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body
 {
     background-color:#f4f4f4
@@ -102,6 +103,7 @@ float:left;
     background-color:#eeeeee;
     text-align: center;
     padding:30px;
+    clear: both;
 }
 .aside h3
 {
