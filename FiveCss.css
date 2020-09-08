@@ -1,8 +1,11 @@
+* {
+    box-sizing: border-box;
+}
 ul,body,p,h1,h2,h3
 {
     margin:0;
 }
-.wrapper h2,p
+.wrapper  h2,.wrapper p
 {
     padding:20px 20px 0px 20px;
     margin-bottom:20px;
@@ -69,11 +72,14 @@ float:left;
 #sidebar1
 {
     float: left;
+    border-right: 1px solid black;
     
 }
 #sidebar2
 {
     float:right;
+    padding-left:20px;
+    border-left:1px solid black;
 }
 #article
 {
@@ -90,4 +96,8 @@ float:left;
     background-color:#eeeeee;
     text-align: center;
     padding-top:30px;
+}
+.aside h3
+{
+    padding-left:20px;
 }
