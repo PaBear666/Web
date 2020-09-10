@@ -1,25 +1,30 @@
-body,ul
-{
-    margin:0;
+
+.inline-flex-container {
+    display: inline-flex;
+    border:2px solid #ccc;
+    margin-top:10px;
+    flex-direction: row;
 }
-li
-{
-    list-style: none;
-    float: left;
-}
-li a
+a
 {
     display: block;
-    padding: 20px 10px;
-    text-decoration: none;
-    border-right: 1px solid #eee;
-    border-left: 1px solid #eee;
-    
+    padding: 1.5em;
 }
-.nav
+.flex-container
 {
-    margin:0 auto;
-    width: max-content;
-    background-color: black;
-    
+    flex-direction: column;
+    display: flex;
+    border:2px solid #ccc;
+    text-align: center;
+    font-size: 1.1em;
+    color:white;
 }
+.flex-item {
+    
+    text-align:center;
+    font-size: 1.1em;
+    color: white;
+}
+.color1 {background-color: red;}
+.color2 {background-color: green;}
+.color3 {background-color: blue;}
