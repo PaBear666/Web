@@ -22,18 +22,30 @@ body
 {
     text-align: center;
 }
-#nav
-{
-    margin:auto;
-}
 #nav li
 {
     list-style: none;
-    float:left;
+    text-align: center;
+    margin-top:auto;
 }
 #nav li a
 {
     display: block;
     padding: 20px;
-    border:1px solid seashell;
+    border:1px solid black;
+    text-decoration:none;
+    transition: 0.5s all;
+    color:black;
+    font-size: 1.5em;
+}
+#nav a:hover {
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    transition: 0.5s all;
+}
+#nav:after {
+    content: " ";
+    display: table;
+    clear: both;
 }
