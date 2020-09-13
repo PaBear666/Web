@@ -112,3 +112,13 @@ table
     width: 500px;
     margin: 0 auto;
 }
+tr
+{
+    color:yellow;
+    transition: 0.5s all;
+}
+tr:hover
+{
+color: #826ae2;
+transition: 0.5s all;
+}
