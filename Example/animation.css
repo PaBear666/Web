@@ -1,0 +1,11 @@
+@keyframes link_background
+{
+    from
+    {
+        background-color: #333333;
+    }
+    to
+    {
+        background-color: wheat;
+    }
+}
