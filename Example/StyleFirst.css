@@ -92,19 +92,37 @@ body
     text-align: center;
 }
 #content-main{
+    padding-top: 10%;
     display: flex;
-    flex-direction: row wrap;
-    height: 100%;
-    padding:10%;
+    flex-flow: row wrap;
     justify-content: space-around;
 
 }
 .content-list
 {
+    display: flex;
+    flex-flow:column wrap;
+    justify-content:center;
+    margin:30px 30px 0 0;
+    height: 450px;
     text-align: center;
     min-width: 350px;
     background-color: white;
     border-radius:30px;
+    transition:0.5s all;
+    box-shadow: 0 0 10px rgba(89, 48, 136, 0.5);
+}
+.content-list:hover
+{
+    color:white;
+    background-color: black;
+    height: 500px;
+    min-width: 400px;
+    transition:0.5s all;
+}
+.content-list h1
+{
+    padding-top:auto;
 }
 
 
